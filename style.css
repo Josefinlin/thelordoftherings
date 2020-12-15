@@ -1,0 +1,226 @@
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: #ce9e45;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 105vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image: url('https://drinkinggamezone.com/img/games/movie/lord-of-the-rings-the-fellowship-of-the-ring.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color:#2b2b2b;
+  padding: 30px;
+  position: absolute;
+  bottom: 0px;
+  left: 100px;
+  right: 100px;
+  display: flex;
+}
+
+/* Cover */
+.movie-background .container .cover img {
+  width: 230px;
+}
+
+/* Content */
+.movie-background .container .content {
+  padding-left: 30px;
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+}
+
+/* Link */
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: #ce9e45;
+text-decoration: underline;
+}
+
+/* Main character */
+.main-character {
+  display: flex;
+  width: 1280px;
+  padding-top: 100px;
+}
+
+/* Paragraph only in main character */
+.main-character .content h2, h3, p {
+  color: #000000;
+  margin-top: 5px;
+}
+
+/* Image only in main character */
+.main-character .image {
+  padding-right: 70px;
+}
+
+/* Image only in main character */
+.main-character .image .resize {
+  width: 400px;
+  height: auto;
+}
+
+/* Director */
+.director {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1280px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Paragraph only in director */
+.director .content h2, h3, p {
+  color: #000000;
+  margin-top: 5px;
+}
+
+/* Image only in director */
+.director .image {
+  padding-left: 70px; 
+}
+
+/* Image only in director */
+.director .image .resize {
+  width: 400px;
+  height: auto;
+}
+
+/* Playlist */
+.playlist {
+  padding-bottom: 100px;
+}
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: baseline;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-family: 'Abril Fatface', Times, serif;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: #ce9e45;
+  font-family: 'Abril Fatface', Times, serif;
+  font-size: 28px;
+  padding-left: 10px;
+}
+
+/* Footer */
+.footer h4 {
+  color: #000000;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Footer */
+.footer h5 {
+  color: #000000;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Abril Fatface', Times, serif;
+}
+
+.year {
+  color: rgb(206, 158, 69);
+}
+
+/* Typography */
+h2 {
+  color: #000000;
+  font-family: 'Abril Fatface', Times, serif;
+  font-size: 30px;
+}
+
+/* Typography */
+h3 {
+  color: #000000;
+  font-family: 'Abril Fatface', Times, serif;
+  font-size: 26px;
+}
+
+/* Typography */
+.movie-background .container p, a {
+  color: white;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Typography */
+.main-character .content p {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Typography */
+.main-character .content h4 {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 26px;
+  font-style:italic;
+}
+
+/* Typography */
+.director .content p {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* Typography */
+.director .content h4 {
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 26px;
+  font-style:italic;
+}
